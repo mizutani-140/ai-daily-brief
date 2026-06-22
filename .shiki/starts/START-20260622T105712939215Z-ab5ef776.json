@@ -1,0 +1,42 @@
+{
+  "claude_code_oauth_secret": {
+    "checked": true,
+    "configured": false,
+    "name": "CLAUDE_CODE_OAUTH_TOKEN",
+    "remediation": "Create a long-lived Claude Code token with `claude setup-token`, export it as CLAUDE_CODE_OAUTH_TOKEN, then run `gh secret set CLAUDE_CODE_OAUTH_TOKEN --repo mizutani-140/ai-daily-brief` or rerun Shiki init/start."
+  },
+  "created_at": "2026-06-22T10:57:13+00:00",
+  "dispatchable_task_ids": [
+    "T-20260622T105712033421Z-a277a190"
+  ],
+  "goal_id": "G-20260622T105712032406Z-4d8486bb",
+  "handoffs": [
+    ".shiki/handoffs/T-20260622T105712033421Z-a277a190-task.md"
+  ],
+  "id": "START-20260622T105712939215Z-ab5ef776",
+  "issues": [
+    {
+      "issue": 1,
+      "ledger_id": "L-20260622T105712936026Z-8c2f19a8",
+      "task_id": "T-20260622T105712033421Z-a277a190",
+      "url": "https://github.com/mizutani-140/ai-daily-brief/issues/1"
+    }
+  ],
+  "plan_id": "P-20260622T105712031287Z-8e102c49",
+  "project_name": "AI Daily Brief",
+  "questions": [
+    "GitHub repo slug (OWNER/REPO)",
+    "Project name",
+    "Goal title",
+    "Outcome / success result",
+    "Completion conditions",
+    "Non-goals",
+    "First vertical-slice task title",
+    "First task scope",
+    "First task acceptance checks",
+    "First task locks"
+  ],
+  "repo": "mizutani-140/ai-daily-brief",
+  "run_id": "RUN-20260622T105712036025Z-0d8629d3",
+  "skills_dir": "/Users/kio.mizutani/Documents/lead-os/skills/engineering"
+}

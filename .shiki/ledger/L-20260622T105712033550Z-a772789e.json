@@ -1,0 +1,13 @@
+{
+  "actor": "shiki-cli",
+  "evidence": [
+    ".shiki/tasks/T-20260622T105712033421Z-a277a190.json"
+  ],
+  "goal_id": "G-20260622T105712032406Z-4d8486bb",
+  "id": "L-20260622T105712033550Z-a772789e",
+  "links": [],
+  "summary": "Task registered from plan: \u7e26\u5207\u308a: 1\u30bd\u30fc\u30b9\u2192\u7cbe\u67fb\u2192LINE\u901a\u77e5\u306eE2E\u3092\u901a\u3059",
+  "task_id": "T-20260622T105712033421Z-a277a190",
+  "timestamp": "2026-06-22T10:57:12+00:00",
+  "type": "task-registered"
+}

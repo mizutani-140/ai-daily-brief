@@ -1,0 +1,15 @@
+{
+  "actor": "shiki-cli",
+  "evidence": [
+    "https://github.com/mizutani-140/ai-daily-brief/issues/1"
+  ],
+  "goal_id": "G-20260622T105712032406Z-4d8486bb",
+  "id": "L-20260622T105712936026Z-8c2f19a8",
+  "links": [
+    "https://github.com/mizutani-140/ai-daily-brief/issues/1"
+  ],
+  "summary": "GitHub Issue #1 created for T-20260622T105712033421Z-a277a190",
+  "task_id": "T-20260622T105712033421Z-a277a190",
+  "timestamp": "2026-06-22T10:57:12+00:00",
+  "type": "handoff"
+}

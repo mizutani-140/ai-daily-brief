@@ -1,0 +1,35 @@
+{
+  "acceptance_checks": [
+    "GitHub Actions \u3092\u624b\u52d5 dispatch \u3059\u308b\u3068 Anthropic \u516c\u5f0f news(anthropic.com/news)\u304b\u3089\u6700\u65b01\u4ef6\u3092\u53d6\u5f97\u3067\u304d\u308b",
+    "Claude API \u304c\u300e\u4e8b\u5b9f\u30fb\u51fa\u5178URL\u30fb\u5177\u4f53\u7684\u5f71\u97ff\u300f\u3092\u6301\u3064\u69cb\u9020\u5316\u51fa\u529b\u3092\u8fd4\u3059",
+    "\u51fa\u5178URL\u304c\u8a31\u53ef\u30c9\u30e1\u30a4\u30f3(anthropic.com)\u3067\u3042\u308b\u3053\u3068\u3092\u30b3\u30fc\u30c9\u304c\u691c\u8a3c\u3059\u308b",
+    "LINE Messaging API push \u304c\u6210\u529f\u3057\u3001\u81ea\u5206\u306eLINE\u306b\u65e5\u672c\u8a9e1\u901a\u304c\u5c4a\u304f",
+    "ANTHROPIC_API_KEY / LINE_CHANNEL_ACCESS_TOKEN / LINE_USER_ID \u306f GitHub Secrets \u304b\u3089\u8aad\u307f\u3001\u30ea\u30dd\u30b8\u30c8\u30ea\u306b\u5e73\u6587\u3092\u542b\u307e\u306a\u3044"
+  ],
+  "assigned_runtime": "claude-code",
+  "dependencies": [],
+  "expected_branch": "shiki/t-20260622t105712033421z-a277a190-1-line-e2e",
+  "expected_pr": null,
+  "github_issue": 1,
+  "goal_id": "G-20260622T105712032406Z-4d8486bb",
+  "id": "T-20260622T105712033421Z-a277a190",
+  "ledger_evidence": [
+    "L-20260622T105712033550Z-a772789e",
+    "L-20260622T105712034699Z-3f234b49",
+    "L-20260622T105712035495Z-c05cd1ef",
+    "L-20260622T105712936026Z-8c2f19a8"
+  ],
+  "locks": [
+    "path:**/*"
+  ],
+  "non_goals": [],
+  "required_skills": [
+    "tdd",
+    "code-review"
+  ],
+  "risk_level": "low",
+  "scope": "Anthropic \u516c\u5f0f news \u30921\u30bd\u30fc\u30b9\u3068\u3057\u3066\u3001\u6700\u65b0\u306e\u516c\u5f0f\u6295\u7a3f\u30921\u4ef6\u53d6\u5f97 \u2192 Claude API \u3067\u300e\u4e8b\u5b9f+\u51fa\u5178URL+\u5177\u4f53\u7684\u5f71\u97ff\u300f\u306e\u69cb\u9020\u5316JSON\u3092\u751f\u6210 \u2192 LINE Messaging API push \u3067\u81ea\u5206\u306euserId\u306b\u65e5\u672c\u8a9e1\u901a\u3092\u5c4a\u3051\u308b\u3001\u6700\u5c0f\u306eEnd-to-End\u3092 GitHub Actions(\u624b\u52d5 workflow_dispatch)\u3067\u52d5\u304b\u3059\u3002\u30b7\u30fc\u30af\u30ec\u30c3\u30c8\u306f GitHub Secrets \u7d4c\u7531\u3067\u8aad\u3080\u3002",
+  "status": "ready",
+  "test_command": "python3 -m unittest discover -s tests",
+  "title": "\u7e26\u5207\u308a: 1\u30bd\u30fc\u30b9\u2192\u7cbe\u67fb\u2192LINE\u901a\u77e5\u306eE2E\u3092\u901a\u3059"
+}
